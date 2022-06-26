@@ -26,7 +26,7 @@ const magia = () => {
         </body>
         </html>
         `
-        
+
     return resultado;
 }
 
@@ -53,10 +53,10 @@ $css.addEventListener('input', e => {
 Split({
     columnGutters: [{
         track: 1,
-        element: document.querySelector('.gutter-col-1'),
+        element: document.querySelector('.vertical-gutter'),
     }],
     rowGutters: [{
         track: 1,
-        element: document.querySelector('.gutter-row-1'),
+        element: document.querySelector('.horizontal-gutter'),
     }]
 })
